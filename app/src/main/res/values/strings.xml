@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Depth Measure</string>
+    <string name="initializing">Initializing ARCore...</string>
+    <string name="ready">ARCore Ready</string>
+    <string name="camera_error">Camera Error</string>
+    <string name="arcore_unavailable">ARCore Not Available</string>
+    <string name="camera_permission">Camera permission required</string>
+    <string name="distance_label">Distance</string>
+    <string name="depth_unknown">-- m</string>
+    <string name="share_log">Share Log</string>
+</resources>
