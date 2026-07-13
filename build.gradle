@@ -1,0 +1,5 @@
+// Top-level (project) build file.
+// Java-only Android project — no Kotlin plugin anywhere.
+plugins {
+    id 'com.android.application' version '8.5.0' apply false
+}
