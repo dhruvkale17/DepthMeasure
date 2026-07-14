@@ -34,7 +34,7 @@ Download `app-debug.apk` from the [Releases](../../releases) page and install it
 **Option B — build from source**
 
 ```bash
-git clone https://github.com/<your-username>/DepthMeasure.git
+git clone https://github.com/dhruvkale17/DepthMeasure.git
 cd DepthMeasure
 ```
 
