@@ -256,22 +256,6 @@ public class MainActivity extends AppCompatActivity implements GLSurfaceView.Ren
             logTimeFormat.format(new Date(now)), depth, confidence));
     }
 
-    /**
-     * Exports the in-memory measurement history as CSV text.
-     * Header: timestamp,depth_m,confidence
-     */
-    public String exportMeasurementsAsCsv() {
-        StringBuilder sb = new StringBuilder("timestamp,depth_m,confidence\n");
-        synchronized (measurementHistory) {
-            for (DepthMeasurement m : measurementHistory) {
-                sb.append(m.timestampMillis).append(',')
-                  .append(String.format(Locale.US, "%.3f", m.depthMeters)).append(',')
-                  .append(String.format(Locale.US, "%.2f", m.confidence)).append('\n');
-            }
-        }
-        return sb.toString();
-    }
-
     // ---------------------------------------------------------------------
     // Side panel (navigation drawer)
     // ---------------------------------------------------------------------
