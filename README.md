@@ -26,7 +26,7 @@ A tiny Android app that turns your phone's camera into a **live depth camera and
 ## Try it
 
 **Option A — install the APK**
-Download `app-debug.apk` from the [Releases](../../releases) page and install it on your phone
+Download `DepthMeasure.apk` from the [Releases](../../releases) page and install it on your phone
 (enable "Install from unknown sources" if asked).
 
 **Option B — build from source**
@@ -50,7 +50,7 @@ Windows users: see [README_WINDOWS.md](README_WINDOWS.md) for a scripted, zero�
 
 ## How it works (short version)
 
-Most phones have one rear camera, so depth is estimated by **depth from motion** — the same
+Most phones have at least one rear camera, so depth is estimated by **depth from motion** — the same
 idea as stereo vision, but across time instead of two eyes. As you move the phone, ARCore sees
 each scene point from two positions (baseline `b`) and measures how far it shifts between them
 (disparity `d`). Depth follows from triangulation:
