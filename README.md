@@ -2,8 +2,6 @@
 
 A tiny Android app that turns your phone's camera into a **live depth camera and tape measure**. Point it at something and it shows the distance in metres, plus a real‑time grayscale depth map of the scene — all powered by Google **ARCore's Depth API** on an ordinary single‑camera phone.
 
-> Created for fun by **Dhruv**.
-
 <p align="center">
   <img src="docs/images/depth_view.png" width="30%" alt="Live depth view" />
   <img src="docs/images/how_it_works.png" width="30%" alt="How it works panel" />
